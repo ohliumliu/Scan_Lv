@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/textCaseType" >
+
+    </TextView>
+    
+    <Spinner 
+        android:id="@+id/caseTypeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/textCaseType">
+    </Spinner>
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/textTrackingNumber" >
+
+    </TextView>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <EditText
+        android:id="@+id/editText1"
+        android:inputType="number"
+        android:maxLength="2"
+        android:hint="YR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="-" >
+
+    </TextView>
+	<EditText
+        android:id="@+id/editText2"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint="DAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+      <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="-" >
+
+    </TextView>
+    <EditText
+        android:id="@+id/editText3"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="CASE#"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+    </EditText>	</LinearLayout>
+	
+	
+    <TextView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/textRange" >
+    </TextView>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+     <TextView
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="+/-" >
+    </TextView>
+    <EditText
+        android:id="@+id/editRange"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint="X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+    </LinearLayout>
+    
+    
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan" />
+    
+     <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/greeting" >
+    </TextView>
+    
+</LinearLayout>

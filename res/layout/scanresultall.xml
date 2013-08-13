@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dip">
+    	<ProgressBar
+        	 android:id="@+id/allthreadstatus"
+        	 android:layout_width="fill_parent"
+        	 android:layout_height="wrap_content"
+        	 android:layout_centerInParent="true"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+		/>    
+		<TextView
+		    android:id="@+id/alltheadstatustext"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/progressbardefault"
+		    android:textColor="#00FF00"
+		    android:textStyle="bold"
+		    android:layout_centerInParent="true"
+		/>
+		    
+    </RelativeLayout>
+    
+    
+    <ListView android:id="@android:id/list"
+               android:layout_width="fill_parent"
+               android:layout_height="0dip"
+               android:layout_weight="1"
+               android:drawSelectorOnTop="false"/>
+
+
+
+    
+    
+</LinearLayout>

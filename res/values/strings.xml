@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Scan!</string>
+    <string name="app_name">Scan Lv</string>
+    <string name="greeting">Please type your complete tracking number (letters and numbers only) in the text box and push Scan to get the status from USCIS. This app is very limited by the developer\'s background in software engineering, so please expect glitches. Upcoming release will enable the scan of a range of tracking numbers.</string>
+	<string name="textTrackingNumber">Input tracking number below</string>
+	<string name="textRange">Input Scan Range</string>
+	<string name="textCaseType">Please choose the prefix of the case number</string>
+	<string-array name="caseType">
+        <item>EAC</item>
+        <item>WAC</item>
+        <item>LIN</item>
+        <item>SRC</item>
+    </string-array>
+	<string name="progressbardefault">Checking egov.uscis.gov ...</string>
+</resources>
